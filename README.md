@@ -135,4 +135,5 @@ Once the notebook finishes execution, the pipeline automatically routes all outp
 * `submission_artifacts.zip`: A compressed archive of the entire directory, ready for immediate deployment or assessment submission.
 
 
-[VIDEO EXPLANATION](https://youtu.be/DGdCt54prII?si=1uG0pC1ZSCjwdLCd)
+
+<a href="https://youtu.be/DGdCt54prII?si=1uG0pC1ZSCjwdLCd" target="_blank" rel="noopener noreferrer">VIDEO EXPLANATION</a>
