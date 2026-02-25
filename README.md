@@ -37,7 +37,8 @@ The `DataProcessor` class handles the ingestion, sanitization, and structural fo
 ## The OOM Challenge & Statistical Analysis
 A critical hardware bottleneck in training LLMs is the self-attention mechanism, which has a memory complexity of O(N2) relative to the sequence length (N). Because the Kaggle T4 GPU does not support memory-efficient Flash Attention, processing excessively long conversations causes the attention matrix to explode in size, instantly triggering a CUDA Out-Of-Memory (OOM) crash.
 
-```import numpy as np
+```python
+import numpy as np
 from tqdm import tqdm
 
 print("\n--- Running Sequence Length Analysis ===")
